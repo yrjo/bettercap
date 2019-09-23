@@ -227,7 +227,7 @@ func NewWiFiModule(s *session.Session) *WiFiModule {
 		"Set the WiFi region to this value before activating the interface."))
 
 	mod.AddParam(session.NewIntParameter("wifi.txpower",
-		"30",
+		"300",
 		"Set WiFi transmission power to this value before activating the interface."))
 
 	mod.AddParam(session.NewStringParameter("wifi.assoc.skip",
